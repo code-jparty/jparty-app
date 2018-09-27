@@ -6,6 +6,7 @@ Frontend for JParty: A webapp in TypeScript+React packaged with Apache Cordova.
 
 - Download and install [Node.js](https://nodejs.org/en/download/)
 - Install Cordova: `npm install -g cordova`
+- Clone the project and switch into its directory
 - Add platforms: `cordova platform add browser android `
   - On Mac, also add ios: `cordova platform add ios`
 
