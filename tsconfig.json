@@ -1,11 +1,16 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
+    "noImplicitAny": false,
     "jsxFactory": "React.createElement",
     "jsx": "react",
-    "module": "commonjs",
-    "sourceMap": true,
+    "moduleResolution": "node",
     "outDir": "www/js",
-    "allowSyntheticDefaultImports": true
+    "sourceMap": true,
+    "inlineSources": true,
+    "module": "amd",
+    "target": "es5",
+    "lib": ["es2018", "dom"]
   },
-  "compileOnSave": true
+  "exclude": ["platforms", "node_modules", "bower_components", "plugins", "merges", "res", "bin", "bld"]
 }
