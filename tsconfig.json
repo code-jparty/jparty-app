@@ -2,6 +2,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "noImplicitAny": false,
+    "allowJs": true,
     "jsxFactory": "React.createElement",
     "jsx": "react",
     "moduleResolution": "node",
@@ -12,5 +13,5 @@
     "target": "es5",
     "lib": ["es2018", "dom"]
   },
-  "exclude": ["platforms", "node_modules", "bower_components", "plugins", "merges", "res", "bin", "bld"]
+  "exclude": ["platforms", "node_modules", "bower_components", "plugins", "merges", "res", "bin", "bld", "www"]
 }
